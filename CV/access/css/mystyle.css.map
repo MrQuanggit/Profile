@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "mystyle.scss",
+        "_quang.scss"
+    ],
+    "names": [],
+    "file": "mystyle.css"
+}

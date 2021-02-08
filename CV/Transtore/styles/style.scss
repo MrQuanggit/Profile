@@ -1,0 +1,39 @@
+@import './reset';
+@import './variables';
+@import './breakpoints';
+
+// Components
+@import './components/profile';
+@import './components/button';
+
+// Landing Page Styles
+.author-of-the-month {
+    &__list {
+        display: flex;
+        justify-content: center;
+
+        .profile {
+            margin: 1rem;
+        }
+
+        @media screen and (max-width: $min-sm) {
+            & {
+                flex-direction: column;
+
+                .profile {
+                    margin-bottom: 5rem;
+                }
+            }
+        }
+    }
+}
+
+.landing-section {
+    * {
+        max-width: 1200px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
